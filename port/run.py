@@ -9,6 +9,9 @@ def saludo():
 @app.route("/usuario")
 def usuario():
     return ("Hola usuario")
+@app.route("/sumas")
+def sumas():
+    return ("Esta es la ventana de sumas donde deberia estar todos los calculos matematicos")
 
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
